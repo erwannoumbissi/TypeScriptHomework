@@ -13,16 +13,25 @@
 
     <div class="buttons">
       <!-- Row 1 -->
+      <button class="button"data-value="time">Time</button>
+
       <button class="button gray" data-value="AC">AC</button>
       <button class="button gray" data-value="+/-">+/-</button>
       <button class="button gray" data-value="%">%</button>
       <button class="button orange" data-value="/">÷</button>
-      <button class="button gray" data-value="cos">cos</button>
-      <button class="button gray" data-value="sin">sin</button>
-      <button class="button gray" data-value="tan">tan</button>
-      <button class="button orange
-      "" data-value="√">√</button>
-      <button class="button gray" data-value="^">xⁿ</button>
+     
+      <div id="science-buttons" style="display: none;">
+          <button class="button gray" data-value="cos">cos</button>
+          <button class="button gray" data-value="sin">sin</button>
+          <button class="button gray" data-value="tan">tan</button>
+          <button class="button orange" data-value="√">√</button>
+          <button class="button gray" data-value="^">xⁿ</button>
+          <button class="button orange"data-value="toBinary">Bin</button>
+          <button class="button orange"data-value="toDecimal">Dec</button>
+          <button class="button orange"data-value="toHexadecimal">Hex</button>
+      </div>
+
+      
       <!-- Row 2 -->
       <button class="button" data-value="7">7</button>
       <button class="button" data-value="8">8</button>
@@ -42,6 +51,7 @@
       <button class="button wide" data-value="0">0</button>
       <button class="button" data-value=".">.</button>
       <button class="button wides" data-value="=">=</button>
+      <button class="button" id="science-toggle">Science</button>
     
     
     </div>
